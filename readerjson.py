@@ -31,7 +31,7 @@ def the_word(text_f): #word >6
 def sort_top(words_value): #sort and top
     l = lambda words_value: words_value[1]
     sort = sorted(words_value.items(), key = l, reverse = True)
-    #print(sort_list)
+    #print(sort)
     count = 1
     top = {}
     for word in sort:
