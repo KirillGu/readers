@@ -1,7 +1,8 @@
-def op_files(name):#open file
-    import json
-    import chardet
+import json
+import chardet
 
+
+def op_files(name):#open file
     with open(name, "rb") as f:
         data = f.read()
         result = chardet.detect(data)
