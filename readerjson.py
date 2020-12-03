@@ -1,6 +1,6 @@
 import json
 import chardet
-
+#автоматическое распознавание кодировок
 
 def op_files(name):#open file
     with open(name, "rb") as f:
